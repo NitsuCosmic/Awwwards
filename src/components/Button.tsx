@@ -1,11 +1,11 @@
 import clsx from "clsx";
-import type { ReactElement } from "react";
+import type { ReactNode } from "react";
 
 interface Props {
 	id: string;
 	title: string;
-	rightIcon?: ReactElement;
-	leftIcon?: ReactElement;
+	rightIcon?: ReactNode;
+	leftIcon?: ReactNode;
 	containerClass: string;
 }
 
